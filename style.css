@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://cdn.fishki.net/upload/post/2016/08/15/2042971/5-18.jpg);
+    background-size: cover;
+    justify-content: center;
+}
+
+.i_1{
+    display: flex;
+}
+
+#i_1{
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 150px;
+    color: rgb(195, 0, 255);
+    background-color: rgb(255, 176, 111);
+}
+
+#gamezone{
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(135, 255, 111);
+    height: 480px;
+    width: 640px;
+    padding: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.character{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    background-color: rgb(121, 111, 255);
+    color: rgb(111, 209, 255);
+
+    background-image: url('https://lfly.ru/wp-content/uploads/2020/01/Zvezda-R136a1-iz-Tumannosti-Tarantula-chto-izvestno-o-samoj-massivnoj-zvezde-vo-Vselennoj.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: none;
+}
+
+.warm{
+    background-image: url('https://prokocmoc.ru/wp-content/uploads/2020/10/Ankaa-zvezda-v-Fenikse.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 217, 111);
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.character:hover{
+    scale: 1.1;  
+}
+
+#sco{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    font-weight: 400;
+}
